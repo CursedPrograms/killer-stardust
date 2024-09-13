@@ -10,7 +10,8 @@
 <br>
 
 # killer-stardust
-
+<br>
+© Cursed Entertainment 2024
 <br>
 <div align="center">
 <a href="https://cursed-entertainment.itch.io/" target="_blank">
