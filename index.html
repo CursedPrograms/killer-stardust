@@ -14,22 +14,30 @@
     #gameCanvas {
         display: block;
         margin: 0 auto;
-        background: url('https://silent-maze.com/fog.png') repeat;
+        background: url('') repeat;/* Fog Png */
     }
     #score {
         position: absolute;
         top: 10px;
         left: 10px;
-        color: #8b0000;
+        color: #ffffff;
         font-size: 24px;
         text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     }
+    #footer {
+            position: absolute;
+            bottom: 10px; /* Distance from the bottom */
+            left: 10px;   /* Distance from the left */
+            color: #fff;
+            font-size: 12px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+        }
 </style>
 </head>
 <body>
 <canvas id="gameCanvas"></canvas>
 <div id="score">Score: 0</div>
-
+<div id="footer">© Cursed Entertainment 2024</div>
 <script>
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
@@ -161,10 +169,19 @@ function gameLoop() {
 
 function gameOver() {
     alert(`Game Over! Your score: ${score}`);
+    
+    // Reset game state
     player.tail = [];
     score = 0;
     scoreElement.textContent = 'Score: 0';
+
+    // Reinitialize the game state
     initGame();
+
+    // Optionally, reset player position and direction if needed
+    player.x = Math.floor(GRID_WIDTH / 2);
+    player.y = Math.floor(GRID_HEIGHT / 2);
+    player.direction = { x: 0, y: 0 };
 }
 
 document.addEventListener('keydown', (e) => {
