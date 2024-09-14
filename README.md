@@ -10,6 +10,8 @@
 <br>
 
 # killer-stardust
+ <img src="https://github.com/CursedPrograms/killer-stardust/blob/main/Killer-Stardust-Logo.png"
+        alt="Killer Stardust Logo" style="width:250px;">
 <br>
 © Cursed Entertainment 2024
 <br>
