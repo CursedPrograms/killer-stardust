@@ -16,7 +16,7 @@
         </div>
 <div align="center">
   <a href="https://www.youtube.com/watch?v=7ybDTxmQgUs" target="_blank">
-    Watch the video on YouTube
+    Gameplay Video
   </a>
 </div>
 <br>
