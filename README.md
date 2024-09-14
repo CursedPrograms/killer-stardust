@@ -15,7 +15,7 @@
         alt="Killer Stardust Logo" style="width:250px;">
         </div>
 <div align="center">
-  [https://www.youtube.com/watch?v=7ybDTxmQgUs](https://www.youtube.com/watch?v=7ybDTxmQgUs)
+  [Gameplay](https://www.youtube.com/watch?v=7ybDTxmQgUs)
 </div>
 <br>
 © Cursed Entertainment 2024
