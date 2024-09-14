@@ -20,7 +20,9 @@
   </a>
 </div>
 <br>
+<div align="center">
 © Cursed Entertainment 2024
+</div>
 <br>
 <div align="center">
 <a href="https://cursed-entertainment.itch.io/" target="_blank">
