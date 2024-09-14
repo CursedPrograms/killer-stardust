@@ -1,25 +1,4 @@
-[build]
-  # The directory where Hugo generates the static files
-  publish = "public"
-  
-  # The command Netlify runs to build your site
-  command = "hugo"
-
-[build.environment]
-  # Optional: Specify Hugo version
-  HUGO_VERSION = "0.110.0" # Replace with your desired Hugo version
-
-[context.production.environment]
-  # Optional: Add any production-specific environment variables here
-
-[context.deploy-preview.environment]
-  # Optional: Add any deploy preview-specific environment variables here
-
-[context.branch-deploy.environment]
-  # Optional: Add any branch deploy-specific environment variables here
-
 [[redirects]]
-  # Optional: Example redirect rule
-  from = "/old-path/*"
-  to = "/new-path/:splat"
-  status = 301
+from = "/*"
+to = "index.html"
+status = 200
