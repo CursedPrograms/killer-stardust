@@ -17,8 +17,3 @@
 *.toml linguist-generated=false
 *.toml linguist-documentation=false
 *.toml linguist-detectable=true
-
-*.mp3 linguist-vendored=false
-*.mp3 linguist-generated=false
-*.mp3 linguist-documentation=false
-*.mp3 linguist-detectable=true
