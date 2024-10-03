@@ -11,7 +11,7 @@
 
 # killer-stardust
 <div align="center">
- <img src="kdlogo.png"
+ <img src="images/kdlogo.png"
         alt="Killer Stardust Logo" style="width:250px;">
         </div>
 <div align="center">
