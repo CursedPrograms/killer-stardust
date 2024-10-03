@@ -1,4 +1,4 @@
-<html><head><base href="https://silent-arcade.com/">
+<html><head><base href="https://killer-stardust.netlify.app/">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Killer Stardust</title>
@@ -35,9 +35,21 @@
 </style>
 </head>
 <body>
+    <audio id="backgroundMusic" src="/audio/theme.mp3" autoplay loop></audio>
+
+    <script>
+        // Ensure audio plays on user interaction if needed
+        document.addEventListener('click', function() {
+            const audio = document.getElementById('backgroundMusic');
+            audio.play().catch(error => {
+                console.log("Audio play failed: ", error);
+            });
+        });
+    </script>
 <canvas id="gameCanvas"></canvas>
 <div id="score">Score: 0</div>
 <div id="footer">© Cursed Entertainment 2024</div>
+
 <script>
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
