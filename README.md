@@ -8,8 +8,8 @@
 </div>
   <br>
 
-<a href="https://github.com/CursedPrograms/website-template/actions/workflows/proof-html.yml">
-    <img class="workflow-badge workflow-success" src="https://github.com/CursedPrograms/website-template/actions/workflows/proof-html.yml/badge.svg" alt="Proof HTML Workflow">
+<a href="https://github.com/CursedPrograms/killer-stardust/actions/workflows/proof-html.yml">
+    <img class="workflow-badge workflow-success" src="https://github.com/CursedPrograms/killer-stardust/actions/workflows/proof-html.yml/badge.svg" alt="Proof HTML Workflow">
 </a>
 <br>
 <div align="center">
@@ -17,7 +17,12 @@
   <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23323330.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
   <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%23323330.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
 </div>
-<br>
+<div align="center">
+  <img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-%23323330.svg?&style=for-the-badge&logo=powershell&logoColor=white"/>
+  <img alt="Shell" src="https://img.shields.io/badge/Shell-%23323330.svg?&style=for-the-badge&logo=gnu-bash&logoColor=white"/>
+  <img alt="Batch" src="https://img.shields.io/badge/Batch-%23323330.svg?&style=for-the-badge&logo=windows&logoColor=white"/>
+  </div>  
+  <br>
 
 # killer-stardust
 <div align="center">
